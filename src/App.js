@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import heroIMG from './assets/images/sporahero.jpg';
+import { HeadlineWindow } from './Components/Window/Window.stories';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <div className='SporaHeroHeadlineContainer'> */}
+        <HeadlineWindow h1={'JurriSpåra Ry'}/>
+        {/* </div> */}
+      <div className="SporaHeroContainer">
+          <img className="SporaHero"
+          src={heroIMG}
+          alt='SporaHeroIMG'
+          />
+      </div>
     </div>
   );
 }
-
 export default App;
