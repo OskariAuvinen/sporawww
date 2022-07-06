@@ -1,5 +1,6 @@
 import './App.css';
 import heroIMG from './assets/images/sporahero.jpg';
+import { NavBar } from './Components/AppBar/AppBar.stories';
 import { HeadlineWindow } from './Components/Window/Window.stories';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           alt='SporaHeroIMG'
           />
       </div>
+      <NavBar />
     </div>
   );
 }

@@ -65,46 +65,32 @@ const Wrapper = styled.div`
     padding-left: 0.25rem;
   }
 `;
-export const HeadlineWindow = ( { h1 } ) => (
+export const StoryCard = ({ storycard }) => (
   <>
-    <Window className='window'>
-      <WindowHeader className='window-header'>
-        <span>Jurrispora.exe</span>
+    <Window className='storycard_container'>
+      <WindowHeader className='storycard-header'>
+        <span>{storycard.headline}</span>
         {/* <Button>
           <span className='close-icon' />
         </Button> */}
       </WindowHeader>
-      {/* <Toolbar>
-        <Button variant='menu' size='sm'>
-          File
-        </Button>
-        <Button variant='menu' size='sm'>
-          Edit
-        </Button>
-        <Button variant='menu' size='sm' disabled>
-          Save
-        </Button>
-      </Toolbar> */}
       <WindowContent>
-        <h1>{h1}</h1>
+        <h1>{storycard.title}</h1>
       </WindowContent>
+      <div className='storycard_imagecontainer'>
+        <img
+          className="storycard_image"
+          src={storycard.imrURL}
+          alt={storycard.title}></img>
+      </div>
       <Panel variant='well' className='footer'>
-        <p>JurriSpåran verkkosivu, galleria, verkkokauppa yms.. Navigoi painamalla "Aloita" alanavigaatiosta. Moi T.</p>
+        <p>{storycard.introduction}</p>
       </Panel>
     </Window>
-{/* 
-    <Window className='window'>
-      <WindowHeader active={false} className='window-header'>
-        <span>not-active.exe</span>
-        <Button>
-          <span className='close-icon' />
-        </Button>
-      </WindowHeader>
-      <WindowContent>I am not active</WindowContent>
-    </Window> */}
+
   </>
 );
 
-HeadlineWindow.story = {
+StoryCard.story = {
   name: 'default'
 };

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import styled from 'styled-components';
 import {
   AppBar,
@@ -42,6 +43,7 @@ export const NavBar = () => {
             Aloita
           </Button>
           {open && (
+            <nav>
             <List
               style={{
                 position: 'absolute',
@@ -55,13 +57,13 @@ export const NavBar = () => {
                 <span role='img' aria-label='📁'>
                   📁
                 </span>
-                Selaa
+                <Link to="/">Etusivu</Link>
               </ListItem>
               <ListItem>
                 <span role='img' aria-label='👨‍💻'>
                   👨‍💻
                 </span>
-                About Us
+                <Link to="/aboutus">About Us</Link>
               </ListItem>
               <ListItem>
                 <img
@@ -69,7 +71,7 @@ export const NavBar = () => {
                   alt='galleryIMG'
                   style={{ height: '20px', marginRight: 4 }}
                 />
-                Galleria
+                <Link to="/gallery">Galleria</Link>
               </ListItem>
               <Divider />
               <ListItem >
@@ -78,9 +80,10 @@ export const NavBar = () => {
                   alt='storeIMG'
                   style={{ height: '20px', marginRight: 4 }}
                 />
-                Kauppaan
+                <Link to="/store">Kauppaan</Link>
               </ListItem>
             </List>
+            </nav>
           )}
         </div>
 

@@ -1,18 +1,29 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { createGlobalStyle, ThemeProvider } from 'styled-components';
 
+//styled components
+import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import { styleReset } from 'react95';
+
+// react router
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+
 
 // pick a theme of your choice
 import original from "react95/dist/themes/original";
 // original Windows95 font (optionally mandatory)
 import ms_sans_serif from "react95/dist/fonts/ms_sans_serif.woff2";
 import ms_sans_serif_bold from "react95/dist/fonts/ms_sans_serif_bold.woff2";
-import { NavBar } from './Components/AppBar/AppBar.stories';
+
+// NavBar = nav menu -- routing to be added
+// import { NavBar } from './Components/AppBar/AppBar.stories';
+import { AboutUs } from './Components/AboutUs/AboutUs';
+import { Store } from './Components/Store/Store';
+import { Gallery } from './Components/Gallery/Gallery';
 
 const GlobalStyles = createGlobalStyle`
   @font-face {
@@ -36,11 +47,19 @@ const GlobalStyles = createGlobalStyle`
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <GlobalStyles />
-    <ThemeProvider theme={original}>
-      <App />
-      <NavBar />
-    </ThemeProvider>
+    <BrowserRouter>
+      <GlobalStyles />
+      <ThemeProvider theme={original}>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/store" element={<Store />} />
+        <Route path="/gallery" element={<Gallery />} />
+      </Routes>
+        {/* <App />
+        <NavBar /> */}
+      </ThemeProvider>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
