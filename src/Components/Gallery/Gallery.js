@@ -2,7 +2,7 @@ import React from 'react';
 import { NavBar } from '../AppBar/AppBar.stories';
 import './Gallery.css';
 
-export const Gallery = ({ }) => {
+export const Gallery = () => {
 
     return (
 

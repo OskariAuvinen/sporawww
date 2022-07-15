@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import styled from 'styled-components';
 import {
   AppBar,
   Toolbar,
@@ -9,19 +8,6 @@ import {
   ListItem,
   Divider
 } from 'react95';
-import logoIMG from '../../assets/images/logo.png';
-import galleryIMG from '../../assets/images/wia_img_color-0.png';
-import storeIMG from '../../assets/images/game_mine_1-0.png';
-
-export default {
-  title: 'AppBar',
-  component: AppBar,
-  decorators: [story => <Wrapper>{story()}</Wrapper>]
-};
-const Wrapper = styled.div`
-  padding: 5rem;
-  background: ___CSS_0___;
-`;
 
 export const NavBar = () => {
   const [open, setOpen] = React.useState(false);
@@ -36,7 +22,7 @@ export const NavBar = () => {
             style={{ fontWeight: 'bold' }}
           >
             <img
-              src={logoIMG}
+              src={process.env.PUBLIC_URL+"assets/images/logo.png"}
               alt='react95 logo'
               style={{ height: '20px', marginRight: 4 }}
             />
@@ -67,7 +53,7 @@ export const NavBar = () => {
               </ListItem>
               <ListItem>
                 <img
-                  src={galleryIMG}
+                  src={process.env.PUBLIC_URL+"assets/images/wia_img_color-0.png"}
                   alt='galleryIMG'
                   style={{ height: '20px', marginRight: 4 }}
                 />
@@ -76,7 +62,7 @@ export const NavBar = () => {
               <Divider />
               <ListItem >
                 <img
-                  src={storeIMG}
+                  src={process.env.PUBLIC_URL+"assets/images/game_mine_1-0.png"}
                   alt='storeIMG'
                   style={{ height: '20px', marginRight: 4 }}
                 />

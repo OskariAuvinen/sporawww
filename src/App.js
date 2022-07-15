@@ -1,5 +1,4 @@
 import './App.css';
-import heroIMG from './assets/images/sporahero.jpg';
 import { NavBar } from './Components/AppBar/AppBar.stories';
 import { HeadlineWindow } from './Components/Window/Window.stories';
 
@@ -11,7 +10,7 @@ function App() {
         {/* </div> */}
       <div className="SporaHeroContainer">
           <img className="SporaHero"
-          src={heroIMG}
+          src={process.env.PUBLIC_URL+"assets/images/sporahero.jpg"}
           alt='SporaHeroIMG'
           />
       </div>

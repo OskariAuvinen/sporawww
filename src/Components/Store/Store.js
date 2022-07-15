@@ -2,7 +2,7 @@ import React from 'react';
 import { NavBar } from '../AppBar/AppBar.stories';
 import './Store.css';
 
-export const Store = ({ }) => {
+export const Store = () => {
 
     return (
 
