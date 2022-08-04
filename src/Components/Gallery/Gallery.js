@@ -97,6 +97,18 @@ export const Gallery = () => {
             imgURL: "assets/images/23.jpg",
             title: 23
         },
+        {
+            imgURL: "assets/images/24.jpg",
+            title: 24
+        },
+        {
+            imgURL: "assets/images/25.jpg",
+            title: 25
+        },
+        {
+            imgURL: "assets/images/26.jpg",
+            title: 26
+        },
     ]
 
     return (
