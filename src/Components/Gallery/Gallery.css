@@ -13,6 +13,34 @@
     flex-wrap: wrap;
 }
 
+.GalleryHeadlineWrapper {
+    margin-top: 50px;
+    flex-flow: column nowrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.GalleryHeadline {
+    font-size: 3rem;
+    color: #fff;
+}
+.GalleryTextWrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    max-width: 650px;
+
+}
+
+.GalleryText {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
 .GalleryWrapper {
     background-color: teal;
 }
