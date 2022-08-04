@@ -24,6 +24,7 @@ import ms_sans_serif_bold from "react95/dist/fonts/ms_sans_serif_bold.woff2";
 import { AboutUs } from './Components/AboutUs/AboutUs';
 import { Store } from './Components/Store/Store';
 import { Gallery } from './Components/Gallery/Gallery';
+import { Faq } from './Components/FAQ/Faq';
 
 const GlobalStyles = createGlobalStyle`
   @font-face {
@@ -54,6 +55,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/store" element={<Store />} />
+        <Route path="/faq" element={<Faq />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
         {/* <App />

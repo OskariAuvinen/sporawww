@@ -1,0 +1,24 @@
+.FaqItem {
+    padding-bottom: 15px;
+}
+
+.FaqItem__Content {
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    max-width: 100%;
+    max-height: 100%;
+    color: #fff;
+}
+
+.FaqItem__Question {
+    color: #fff;
+    letter-spacing: .1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.FaqItem__Answer {
+    color: #fff;
+    padding-bottom: 25px;
+}

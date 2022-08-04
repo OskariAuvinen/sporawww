@@ -1,6 +1,5 @@
 .App {
   background-color: teal;
-  height: 100%;
   width: 100%;
   /* display:inline-flex; */
   display: inline-grid;

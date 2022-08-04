@@ -40,16 +40,28 @@ export const NavBar = () => {
             >
 
               <ListItem>
-                <span role='img' aria-label='📁'>
-                  📁
-                </span>
+                <img
+                  src={process.env.PUBLIC_URL+"assets/images/directory_admin_tools-2.png"}
+                  alt='HomepageIMG'
+                  style={{ height: '20px', marginRight: 4 }}
+                />
                 <Link to="/">Etusivu</Link>
               </ListItem>
               <ListItem>
-                <span role='img' aria-label='👨‍💻'>
-                  👨‍💻
-                </span>
+              <img
+                  src={process.env.PUBLIC_URL+"assets/images/mailbox_world-2.png"}
+                  alt='AboutUsIMG'
+                  style={{ height: '20px', marginRight: 4 }}
+                />
                 <Link to="/aboutus">About Us</Link>
+              </ListItem>
+              <ListItem>
+                <img
+                  src={process.env.PUBLIC_URL+"assets/images/accessibility-3.png"}
+                  alt='FaqIMG'
+                  style={{ height: '20px', marginRight: 4 }}
+                />
+                <Link to="/faq">Faq</Link>
               </ListItem>
               <ListItem>
                 <img
