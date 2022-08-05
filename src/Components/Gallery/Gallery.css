@@ -14,12 +14,13 @@
     margin-right: auto;
 }
 
-.GallerysContainer{
+.GallerysContainer {
     width: 100%;
     margin-left: auto;
-    margin-right:auto;
-    position:relative;
+    margin-right: auto;
+    position: relative;
 }
+
 .GalleryWrapper {
     position: relative;
     width: 100%;
