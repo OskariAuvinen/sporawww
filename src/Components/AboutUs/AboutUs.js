@@ -34,9 +34,19 @@ export const AboutUs = () => {
 
         <div className="AboutUs">
             <div className="AboutUsContainer">
-                <div className="StoryCardWrapper">
+            <div className="AboutUsHeadlineWrapper">
+                    <h1 className="AboutUsHeadline">Meistä</h1>
+                </div>
+                <div className="AboutUsTextWrapper">
+                    <div className="AboutUsText">
+                        Keitä me olemme? Meidän tarinamme.
+                    </div>
+                </div>
+            <div className="StoryCardsContainer">
+                <div className="StoryCardsWrapper">
                     {stories.map((sc, index) => <StoryCard key={sc.headline + index} storycard={sc}/>)}
                 </div>
+            </div>
                 <NavBar />
             </div>
         </div>

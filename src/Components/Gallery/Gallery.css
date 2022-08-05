@@ -7,10 +7,11 @@
 
 .GalleryContainer {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
     align-items: center;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .GalleryHeadlineWrapper {
@@ -41,6 +42,16 @@
     color: #fff;
 }
 
+.GallerysContainer{
+    width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+    position:relative;
+}
 .GalleryWrapper {
-    background-color: teal;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
 }

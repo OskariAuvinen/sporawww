@@ -4,8 +4,8 @@ import {
   Window,
   WindowContent,
   WindowHeader,
-  Button,
-  Panel
+  // Button,
+  // Panel
 } from 'react95';
 
 export default {
@@ -88,9 +88,9 @@ export const HeadlineWindow = ( { h1 } ) => (
       <WindowContent>
         <h1>{h1}</h1>
       </WindowContent>
-      <Panel variant='well' className='footer'>
+      {/* <Panel variant='well' className='footer'>
         <p>JurriSpåran verkkosivu, galleria, verkkokauppa yms.. Navigoi painamalla "Aloita" alanavigaatiosta. Moi T.</p>
-      </Panel>
+      </Panel> */}
     </Window>
 {/* 
     <Window className='window'>

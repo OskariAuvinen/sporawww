@@ -7,31 +7,70 @@
 
 .AboutUsContainer {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
     align-items: center;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.StoryCardsContainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+    position:relative;
 }
 
-.StoryCardWrapper {
-    background-color: teal;
+.StoryCardsWrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
 }
-.storycard_container {
+.Storycard_container {
     position: relative;
     margin: 24px;
     width: 320px;
     height: 570px;
     overflow: hidden;
 }
-.storycard_imagecontainer {
+.Storycard_imagecontainer {
     box-sizing: border-box;
     position: relative;
     margin: 5px 0px 5px 0px;
     width: 100%;
     height: 50%;
 }
-.storycard_image {
+.Storycard_image {
     position: relative;
     width: 100%;
     height: 100%;
+}
+
+.AboutUsHeadlineWrapper {
+    margin-top: 50px;
+    flex-flow: column nowrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.AboutUsHeadline {
+    font-size: 3rem;
+    color: #fff;
+}
+.AboutUsTextWrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    max-width: 650px;
+
+}
+
+.AboutUsText {
+    font-size: 1.2rem;
+    color: #fff;
 }

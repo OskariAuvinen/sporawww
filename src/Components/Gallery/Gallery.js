@@ -122,8 +122,10 @@ export const Gallery = () => {
                     <div className="GalleryText"> 
                     </div>
                 </div> */}
+            <div className="GallerysContainer">
                 <div className="GalleryWrapper">
                     {images.map((img, index) => <ImageCard key={img.title + index} image={img}/>)}
+                </div>
                 </div>
                 <NavBar />
             </div>

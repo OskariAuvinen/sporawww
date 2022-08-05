@@ -10,8 +10,8 @@ import {
 
 export const StoryCard = ({ storycard }) => (
   <>
-    <Window className='storycard_container animated animatedFadeInUp fadeInUp'>
-      <WindowHeader className='storycard-header'>
+    <Window className='Storycard_container animated animatedFadeInUp fadeInUp'>
+      <WindowHeader className='Storycard-header'>
         <span>{storycard.headline}</span>
         {/* <Button>
           <span className='close-icon' />
@@ -20,9 +20,9 @@ export const StoryCard = ({ storycard }) => (
       <WindowContent>
         <h1>{storycard.title}</h1>
       </WindowContent>
-      <div className='storycard_imagecontainer'>
+      <div className='Storycard_imagecontainer'>
         <img
-          className="storycard_image"
+          className="Storycard_image"
           src={process.env.PUBLIC_URL + storycard.imgURL}
           alt={storycard.title}></img>
       </div>

@@ -8,6 +8,7 @@ function App() {
       {/* <div className='SporaHeroHeadlineContainer'> */}
         <HeadlineWindow h1={'JurriSpåra Ry'}/>
         {/* </div> */}
+        
       <div className="SporaHeroContainer">
           <img className="SporaHero"
           src={process.env.PUBLIC_URL+"assets/images/sporahero.jpg"}
