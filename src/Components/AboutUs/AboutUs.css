@@ -46,31 +46,3 @@
     width: 100%;
     height: 100%;
 }
-
-.AboutUsHeadlineWrapper {
-    margin-top: 50px;
-    flex-flow: column nowrap;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.AboutUsHeadline {
-    font-size: 3rem;
-    color: #fff;
-}
-.AboutUsTextWrapper {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    position: relative;
-    max-width: 650px;
-
-}
-
-.AboutUsText {
-    font-size: 1.2rem;
-    color: #fff;
-}

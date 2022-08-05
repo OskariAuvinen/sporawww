@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavBar } from '../AppBar/AppBar.stories';
 import { ImageCard } from '../ImageCard/ImageCard';
+import { Headline } from '../Headline/Headline';
 import './Gallery.css';
 
 export const Gallery = () => {
@@ -111,17 +112,16 @@ export const Gallery = () => {
         },
     ]
 
+    const info = {
+        headline: "Kuvia menneistä tapahtumista",
+        text: ""
+    }
+
     return (
 
         <div className="Gallery">
             <div className="GalleryContainer">
-            <div className="GalleryHeadlineWrapper">
-                    <h1 className="GalleryHeadline">Kuvia menneistä tapahtumista</h1>
-                </div>
-                {/* <div className="GalleryTextWrapper">
-                    <div className="GalleryText"> 
-                    </div>
-                </div> */}
+            <Headline info={info} />
             <div className="GallerysContainer">
                 <div className="GalleryWrapper">
                     {images.map((img, index) => <ImageCard key={img.title + index} image={img}/>)}

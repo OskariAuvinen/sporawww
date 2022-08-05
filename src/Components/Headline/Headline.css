@@ -1,0 +1,35 @@
+/* .Headline {
+
+}
+
+.HeadlineContainer {
+
+} */
+
+.HeadlineWrapper {
+    margin-top: 50px;
+    flex-flow: column nowrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Headline {
+    font-size: 3rem;
+    color: #fff;
+}
+.HeadlineTextWrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    max-width: 650px;
+
+}
+
+.HeadlineText {
+    font-size: 1.2rem;
+    color: #fff;
+}

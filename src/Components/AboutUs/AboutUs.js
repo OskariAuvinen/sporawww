@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavBar } from '../AppBar/AppBar.stories';
+import { Headline } from '../Headline/Headline';
 import { StoryCard } from '../StoryCard/StoryCard.stories';
 import './AboutUs.css'
 
@@ -30,18 +31,17 @@ export const AboutUs = () => {
             imgURL: "assets/images/matti.jpg"
         },
     ]
+
+    const info = {
+        headline: "Meistä",
+        text: "Keitä me olemme? Meidän tarinamme."
+    }
+
     return (
 
         <div className="AboutUs">
             <div className="AboutUsContainer">
-            <div className="AboutUsHeadlineWrapper">
-                    <h1 className="AboutUsHeadline">Meistä</h1>
-                </div>
-                <div className="AboutUsTextWrapper">
-                    <div className="AboutUsText">
-                        Keitä me olemme? Meidän tarinamme.
-                    </div>
-                </div>
+                <Headline info={info} />
             <div className="StoryCardsContainer">
                 <div className="StoryCardsWrapper">
                     {stories.map((sc, index) => <StoryCard key={sc.headline + index} storycard={sc}/>)}

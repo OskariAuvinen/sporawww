@@ -1,18 +1,60 @@
 .App {
   background-color: teal;
-  width: 100%;
-  /* display:inline-flex; */
-  display: inline-grid;
-}
-.SporaHeroContainer {
   height: 100%;
   width: 100%;
-  /* margin: 73px 25px 0px 25px; */
-  display: inline-grid;
+  display: flex;
 }
+
+.AppContainer {
+  width: 100%;
+  display: inline-block;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
+}
+
+.AppWrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.SporaHeroContainer {
+  width: 100%;
+  display: inline-block;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
+}
+
+.SporaHeroImgWrapper {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: flex;
+}
+
 .SporaHero {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 50%; 
+}
+.SporaHeroContent {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.kfelFY {
+  width: 100%;
 }
