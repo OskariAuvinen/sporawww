@@ -53,7 +53,7 @@ export const NavBar = () => {
                   alt='AboutUsIMG'
                   style={{ height: '20px', marginRight: 4 }}
                 />
-                <Link to="/aboutus">About Us</Link>
+                <Link to="/aboutus">Tietoa meistä</Link>
               </ListItem>
               <ListItem>
                 <img
@@ -61,7 +61,7 @@ export const NavBar = () => {
                   alt='FaqIMG'
                   style={{ height: '20px', marginRight: 4 }}
                 />
-                <Link to="/faq">Faq</Link>
+                <Link to="/faq">Usein kysymättömät kysymykset</Link>
               </ListItem>
               <ListItem>
                 <img
@@ -78,7 +78,7 @@ export const NavBar = () => {
                   alt='storeIMG'
                   style={{ height: '20px', marginRight: 4 }}
                 />
-                <Link to="/store">Kauppaan</Link>
+                <Link to="/store">Verkkokauppajuttuhomma</Link>
               </ListItem>
             </List>
             </nav>
