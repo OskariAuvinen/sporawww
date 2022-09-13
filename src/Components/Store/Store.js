@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { SelectTicket } from '../Select/SelectTicket.story';
 import { NavBar } from '../AppBar/AppBar.stories';
 import { Headline } from '../Headline/Headline';
@@ -9,6 +9,7 @@ import './Store.css';
 // import { Business } from '../Business/Business';
 // import { Economy } from '../Economy/Economy';
 // import { CheckoutForm } from '../CheckoutForm/CheckoutForm'
+//import React, { useState, useEffect } from 'react';
 
 // const stripePromise = loadStripe("pk_test_51LHTIkBvZGh44FYuaX3o4oCtYfV5BpDWungAeEjHwYPg1zvKqbUyjF9rEwmkMmo7vM3vd9WsMCySND1ps9Nj4oRE00lmn2O4GO");
 
@@ -42,7 +43,7 @@ export const Store = () => {
         { value: 2, label: 'Business' },
 
     ];
-
+ 
     const info = {
         headline: "Lippukauppa",
         text: "Hei, täältä voit ostaa itsellesi sähköisen matkustusasiakirjan tapahtumaa varten."
@@ -72,7 +73,7 @@ export const Store = () => {
                                 <Business />
                             </div>)} */}
 
-                            {ticketType == 1 ? (<div className="StoreProductWrapper">
+                            {ticketType === 1 ? (<div className="StoreProductWrapper">
                                 <a href="https://buy.stripe.com/6oE9AAcHJ9XGdCU146"><h2>Economy</h2> tää on linkki</a>
                             </div>) : (<div className="StoreProductWrapper">
                                 <a href="https://buy.stripe.com/5kA4gggXZd9S7ew5kn"><h2>Business</h2> tääkin on linkki</a>

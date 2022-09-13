@@ -5,33 +5,33 @@ import { Select, Fieldset } from 'react95';
 
 
 
-const Wrapper = styled.div`
-  background: ${({ theme }) => theme.material};
-  padding: 5rem;
-  fieldset,
-  fieldset {
-    margin-bottom: 2rem;
-  }
-  legend + * {
-    margin-bottom: 1rem;
-  }
-  #default-selects {
-    width: 200px;
-  }
-  #cutout > div {
-    width: 250px;
-    padding: 1rem;
-    background: ${({ theme }) => theme.canvas};
-    & > p {
-      margin-bottom: 2rem;    }
-  }
-`;
+// const Wrapper = styled.div`
+//   background: ${({ theme }) => theme.material};
+//   padding: 5rem;
+//   fieldset,
+//   fieldset {
+//     margin-bottom: 2rem;
+//   }
+//   legend + * {
+//     margin-bottom: 1rem;
+//   }
+//   #default-selects {
+//     width: 200px;
+//   }
+//   #cutout > div {
+//     width: 250px;
+//     padding: 1rem;
+//     background: ${({ theme }) => theme.canvas};
+//     & > p {
+//       margin-bottom: 2rem;    }
+//   }
+// `;
 
-export default {
-  title: 'Select',
-  component: Select,
-  decorators: [story => <Wrapper>{story()}</Wrapper>]
-};
+// export default {
+//   title: 'Select',
+//   component: Select,
+//   decorators: [story => <Wrapper>{story()}</Wrapper>]
+// };
 
 export function SelectTicket( { ticketType, handleTicketOption, ticketOptions }) {
   return (
