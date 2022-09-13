@@ -73,9 +73,9 @@ export const Store = () => {
                             </div>)} */}
 
                             {ticketType == 1 ? (<div className="StoreProductWrapper">
-                                <a href="https://buy.stripe.com/6oE9AAcHJ9XGdCU146"><h2>Economy</h2></a>
+                                <a href="https://buy.stripe.com/6oE9AAcHJ9XGdCU146"><h2>Economy</h2> tää on linkki</a>
                             </div>) : (<div className="StoreProductWrapper">
-                                <a href="https://buy.stripe.com/5kA4gggXZd9S7ew5kn"><h2>Business</h2></a>
+                                <a href="https://buy.stripe.com/5kA4gggXZd9S7ew5kn"><h2>Business</h2> tääkin on linkki</a>
                             </div>)}    
 
                         </div>
