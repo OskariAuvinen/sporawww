@@ -25,6 +25,7 @@ import { AboutUs } from './Components/AboutUs/AboutUs';
 import { Store } from './Components/Store/Store';
 import { Gallery } from './Components/Gallery/Gallery';
 import { Faq } from './Components/FAQ/Faq';
+import { Terms } from './Components/Terms/Terms';
 
 const GlobalStyles = createGlobalStyle`
   @font-face {
@@ -57,6 +58,7 @@ root.render(
         <Route path="/store" element={<Store />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/terms" element={<Terms />} />
       </Routes>
         {/* <App />
         <NavBar /> */}
