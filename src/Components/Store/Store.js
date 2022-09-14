@@ -82,7 +82,7 @@ export const Store = () => {
                         </div>
 
                         <div className="TermsLinkWrapper">
-                            <a href="https://www.jurrispora.fi/terms" target="_blank">Kuljetusehdot</a>
+                            <a href="https://www.jurrispora.fi/terms" target="_blank" rel="noreferrer">Kuljetusehdot</a>
                         </div>
                         
                         {/* {clientSecret && (

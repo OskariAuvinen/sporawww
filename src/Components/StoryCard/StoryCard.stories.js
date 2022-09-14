@@ -20,7 +20,7 @@ export const StoryCard = ({ storycard }) => (
       <WindowContent>
         <h1>{storycard.title}</h1>
       </WindowContent>
-      {storycard.linkUrl == '' ? (
+      {storycard.linkUrl === '' ? (
         <div className='Storycard_imagecontainer'>
           <img
             className="Storycard_image"
@@ -30,7 +30,7 @@ export const StoryCard = ({ storycard }) => (
           </img>
         </div>
       ) : (
-      <a href={storycard.linkUrl} target="_blank">
+      <a href={storycard.linkUrl} target="_blank" rel="noreferrer">
       <div className='Storycard_imagecontainer'>
         <img
           className="Storycard_image"
