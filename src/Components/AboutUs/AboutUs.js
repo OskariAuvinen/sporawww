@@ -8,28 +8,34 @@ export const AboutUs = () => {
     const stories = [
         {
             headline: 'Tomi.exe',
-            title: 'spårafuhrer',
-            introduction: 'Tomi on raitiovaunun kuljettaja ja kuljettaa raitiovaunua. Tomi tykkää junista',
-            imgURL: "assets/images/tomi.jpg"
+            title: 'Mein tramführer',
+            introduction: 'Tomi "Mein tramführer" Raitio. Tapahtuman järjestäjä ja kuljettaja. Ei välitä kenestäkään ja johtaa yhdistystä pelolla. Järjestää jurrispåraa vain rahan ja ilmaisen viinan takia. Ei harrastuksia.',
+            imgURL: "assets/images/tomi.jpeg"
         },
         {
             headline: 'Tuomas.exe',
-            title: 'Väkivaltavastaava',
-            introduction: 'Tuomas on teknologiaJeesus ja vastaa väkivallasta. Tuomas tykkää myös junista',
-            imgURL: "assets/images/tuomas.jpg"
+            title: 'Väkivaltapäällikkö',
+            introduction: 'Tuomas "Väkivaltapäällikkö" Savela. Tuomas pitää yllä järjestystä ja pahaa oloa. Ääni on kantava ja kirkas. Ulkonäöstä huolimatta asunut Comptonissa johtaen rikollisliigaa. Tykkää junista.',
+            imgURL: "assets/images/tuomas.jpeg"
         },
         {
             headline: 'Sami.exe',
-            title: 'Juomamestari',
-            introduction: 'Samin tehtävä on vastata matkustajien päihtymistilasta sekä tarjoilusta. Sami tykkää linnuista',
-            imgURL: "assets/images/sami.jpg"
+            title: 'Lintuhyvinvointiasiantuntija',
+            introduction: 'Sami "Lintuhyvinvointiasiantuntija" Mannola. Sami on yhdistyksemme kantavat siivet, kaikki tietää nokkimisjärjestyksen kun Sami on tikkana paikalla. Lukee Tex Willeriä.',
+            imgURL: "assets/images/sami.jpeg"
         },
         {
             headline: 'Matti.exe',
-            title: 'Jeesus',
-            introduction: 'Matti pitää huolta haureudesta sekä matkustajien sieluista. Osaa muuttaa veden viiniksi',
-            imgURL: "assets/images/matti.jpg"
+            title: 'Päihteidenasiantuntija',
+            introduction: 'Oskari "Päihteidenasiantuntija" Auvinen. Oskarin tietämys antabuksesta kotipolttoiseen on kuin lukisi aiheesta tuhat kirjaa. Vastaa tapahtumissa Jeesuksen sanasta, jumalan viljasta sekä herkullisista juustokakkuresepteistä. Asuu Kalliossa.',
+            imgURL: "assets/images/matti.jpeg"
         },
+        {
+            headline: 'Filip.exe',
+            title: 'DJ-Sahis',
+            introduction: 'Filip "DJ-Sahis" Kgryczzhinskiy. Vuokratyöläinen Krakowan kaduilta. Soittaa neuvostoajan kovimmat ja tykeimmät technot. Ei puhu suomea kun kännissä.',
+            imgURL: "assets/images/filip.jpeg"
+        }
     ]
 
     const info = {
