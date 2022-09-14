@@ -33,7 +33,7 @@ export const AboutUs = () => {
         {
             headline: 'Filip.exe',
             title: 'DJ-Sahis',
-            introduction: 'Filip "DJ-Sahis" Kgryczzhinskiy. Vuokratyöläinen Krakowan kaduilta. Soittaa neuvostoajan kovimmat ja tykeimmät technot. Ei puhu suomea kun kännissä.',
+            introduction: 'Filip "DJ-Sahis" Kgryczzhinskiy. Vuokratyöläinen Varsovan kaduilta. Soittaa neuvostoajan kovimmat ja tykeimmät technot. Ei puhu suomea kun kännissä.',
             imgURL: "assets/images/filip.jpeg"
         }
     ]

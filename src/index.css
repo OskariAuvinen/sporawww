@@ -30,3 +30,9 @@ code {
   bottom: 0 !important;
   top: auto !important;
 }
+
+.lnhFiS {
+  text-align: left!important;
+  width: 100%!important;
+  display: flex!important;
+}
