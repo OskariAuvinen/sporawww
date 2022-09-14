@@ -11,7 +11,7 @@ export const AboutUs = () => {
             title: 'Mein tramführer',
             introduction: 'Tomi "Mein tramführer" Raitio. Tapahtuman järjestäjä ja kuljettaja. Ei välitä kenestäkään ja johtaa yhdistystä pelolla. Järjestää jurrispåraa vain rahan ja ilmaisen viinan takia. Ei harrastuksia.',
             imgURL: "assets/images/tomi.jpeg",
-            linkUrl: ''
+            linkUrl: 'https://www.youtube.com/watch?v=IZJIQvPpvuc'
         },
         {
             headline: 'Tuomas.exe',
