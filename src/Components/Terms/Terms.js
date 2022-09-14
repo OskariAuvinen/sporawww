@@ -66,7 +66,7 @@ Oikeus korvaukseen menetetään, jos matkustaja hengittää vuoden kuluessa tai 
 <h1>5.3 Korvausten hakeminen ja käsittelyaika </h1>
 Lomake korvauksen hakemista varten löytyy ehkä jurrispora.fi-sivustolta. Korvauspyynnön voi tehdä myös lipunmyyntitoimistossa tai soittamalla asiakastukeen, josta asiakkaalle lähetetään pullopostilla paperinen korvaushakemuslomake. 
 Hakemukset käsitellään mahdollisimman hitaasti ja pääsääntöisesti viimeistään yhden (1) vuosisadan kuluessa hakemuksen saapumisesta.
-Jurrispåra maksaa korvaukset oravannahkoina tai tsemppipeukkujen muodossa. Tsemppipeukkuja voi käyttää Jurrispåran myymien palveluiden ostoon.
+Jurrispåra maksaa korvaukset oravannahkoina tai tsemppipeukkujen muodossa. Tsemppipeukkuja voi käyttää Jurrispåran myymien palveluiden ostoon.<br/><br/>
 <h1>6 Sovellettava lainsäädäntö</h1>
 Raitioteillä tapahtuvaa matkustajaliikennettä säätelevät seuraavat lait ja säädökset:
 a.	Silmä silmästä
