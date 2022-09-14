@@ -43,7 +43,7 @@ export const Store = () => {
         { value: 2, label: 'Business' },
 
     ];
- 
+
     const info = {
         headline: "Lippukauppa",
         text: "Hei, täältä voit ostaa itsellesi sähköisen matkustusasiakirjan tapahtumaa varten."
@@ -77,14 +77,20 @@ export const Store = () => {
                                 <a href="https://buy.stripe.com/6oE9AAcHJ9XGdCU146"><h2>Economy</h2> tää on linkki</a>
                             </div>) : (<div className="StoreProductWrapper">
                                 <a href="https://buy.stripe.com/5kA4gggXZd9S7ew5kn"><h2>Business</h2> tääkin on linkki</a>
-                            </div>)}    
+                            </div>)}
 
                         </div>
+
+                        <div className="TermsLinkWrapper">
+                            <a href="https://www.jurrispora.fi/terms" target="_blank">Kuljetusehdot</a>
+                        </div>
+                        
                         {/* {clientSecret && (
                             <Elements options={options} stripe={stripePromise}>
                                 <CheckoutForm />
                             </Elements>
                         )} */}
+
                     </div>
                 </div>
                 <NavBar />

@@ -10,31 +10,36 @@ export const AboutUs = () => {
             headline: 'Tomi.exe',
             title: 'Mein tramführer',
             introduction: 'Tomi "Mein tramführer" Raitio. Tapahtuman järjestäjä ja kuljettaja. Ei välitä kenestäkään ja johtaa yhdistystä pelolla. Järjestää jurrispåraa vain rahan ja ilmaisen viinan takia. Ei harrastuksia.',
-            imgURL: "assets/images/tomi.jpeg"
+            imgURL: "assets/images/tomi.jpeg",
+            linkUrl: ''
         },
         {
             headline: 'Tuomas.exe',
             title: 'Väkivaltapäällikkö',
             introduction: 'Tuomas "Väkivaltapäällikkö" Savela. Tuomas pitää yllä järjestystä ja pahaa oloa. Ääni on kantava ja kirkas. Ulkonäöstä huolimatta asunut Comptonissa johtaen rikollisliigaa. Tykkää junista.',
-            imgURL: "assets/images/tuomas.jpeg"
+            imgURL: "assets/images/tuomas.jpeg",
+            linkUrl: ''
         },
         {
             headline: 'Sami.exe',
             title: 'Lintuhyvinvointiasiantuntija',
             introduction: 'Sami "Lintuhyvinvointiasiantuntija" Mannola. Sami on yhdistyksemme kantavat siivet, kaikki tietää nokkimisjärjestyksen kun Sami on tikkana paikalla. Lukee Tex Willeriä.',
-            imgURL: "assets/images/sami.jpeg"
+            imgURL: "assets/images/sami.jpeg",
+            linkUrl: ''
         },
         {
             headline: 'Matti.exe',
             title: 'Päihteidenasiantuntija',
             introduction: 'Oskari "Päihteidenasiantuntija" Auvinen. Oskarin tietämys antabuksesta kotipolttoiseen on kuin lukisi aiheesta tuhat kirjaa. Vastaa tapahtumissa Jeesuksen sanasta, jumalan viljasta sekä herkullisista juustokakkuresepteistä. Asuu Kalliossa.',
-            imgURL: "assets/images/matti.jpeg"
+            imgURL: "assets/images/matti.jpeg",
+            linkUrl: ''
         },
         {
             headline: 'Filip.exe',
             title: 'DJ-Sahis',
-            introduction: 'Filip "DJ-Sahis" Kgryczzhinskiy. Vuokratyöläinen Varsovan kaduilta. Soittaa neuvostoajan kovimmat ja tykeimmät technot. Ei puhu suomea kun kännissä.',
-            imgURL: "assets/images/filip.jpeg"
+            introduction: 'Filip "DJ-Sahis" Kgryczzhinskiy. Vuokratyöläinen Varsovan kaduilta. Soittaa neuvostoajan kovimmat ja tykeimmät technot. Ei puhu suomea kun kännissä. Kuvaa klikkaamalla voit tutustua DJ-Sahiksen taidonnäytteeseen',
+            imgURL: "assets/images/filip.jpeg",
+            linkUrl: "https://youtu.be/UOV3pBYpkdM?t=1m12s"
         }
     ]
 

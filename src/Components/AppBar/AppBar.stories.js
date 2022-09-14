@@ -72,6 +72,14 @@ export const NavBar = () => {
                     style={{ height: '20px', marginRight: 4 }}
                   /><p className='linkwrapper_text'>Galleria</p></div></Link>
                 </ListItem>
+                <ListItem>
+                  <Link to="/terms"><div className="linkwrapper">                <img
+                    className='linkwrapper_img'
+                    src={process.env.PUBLIC_URL + "assets/images/address_book-0.png"}
+                    alt='galleryIMG'
+                    style={{ height: '20px', marginRight: 4 }}
+                  /><p className='linkwrapper_text'>Kuljetusehdot</p></div></Link>
+                </ListItem>
                 <Divider />
                 <ListItem >
                   <Link to="/store"><div className="linkwrapper"> <img

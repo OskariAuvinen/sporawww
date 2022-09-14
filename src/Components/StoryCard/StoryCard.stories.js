@@ -20,12 +20,26 @@ export const StoryCard = ({ storycard }) => (
       <WindowContent>
         <h1>{storycard.title}</h1>
       </WindowContent>
+      {storycard.linkUrl == '' ? (
+        <div className='Storycard_imagecontainer'>
+          <img
+            className="Storycard_image"
+            src={process.env.PUBLIC_URL + storycard.imgURL}
+            alt={storycard.title}
+          >
+          </img>
+        </div>
+      ) : (
+      <a href={storycard.linkUrl} target="_blank">
       <div className='Storycard_imagecontainer'>
         <img
           className="Storycard_image"
           src={process.env.PUBLIC_URL + storycard.imgURL}
-          alt={storycard.title}></img>
+          alt={storycard.title}
+        >
+        </img>
       </div>
+      </a>)}
       <Panel variant='well' className='footer'>
         <p>{storycard.introduction}</p>
       </Panel>
