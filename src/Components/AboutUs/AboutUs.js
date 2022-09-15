@@ -45,7 +45,7 @@ export const AboutUs = () => {
 
     const info = {
         headline: "Meistä",
-        text: "Keitä me olemme? Meidän tarinamme."
+        text: "Keitä me olemme? Meidän tarinamme. Toisin sanoen Interpolin etsityimmät."
     }
 
     return (
