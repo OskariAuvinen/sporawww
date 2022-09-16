@@ -11,6 +11,10 @@ export const Faq = () => {
             answer: "Ole yhteydessä tapahtuman järjestäjiin."
         },
         {
+            question: "Mitä kuuluu VIP-lippuun?",
+            answer: "Mielettömän kunnian, maineen ja jurrisporan henkilökunnan elinehtojen pelastamisen lisäksi saat mahtavan virallisen ja harvinaisen jurrispora-ämpärin, joka on täytetty (tai no pohjalla ainakin yksi kappale) yllätystuotteita. Ämpäri itsessään on jo keräilyharvinaisuus sekä brändituote, josta riittää iloa koko perheelle ympäri vuoden. Lisäksi saat erittäin hyvällä todennäköisyydellä istumapaikan VIP-osastosta (sama kuin normiosasto)."
+        },
+        {
             question: "Olen myöhässä, mitä teen?",
             answer: "Myöhästyneitä ei noudeta mistään. Jos satut osumaan tauolla, tietenkin olet tervetullut kyytiin kuljetusehdot täyttävää matkustusasiakirjaa näyttämällä."
         },
