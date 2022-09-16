@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { SelectTicket } from '../Select/SelectTicket.story';
+import React from 'react'; // otettu useState vittuu
+// import { SelectTicket } from '../Select/SelectTicket.story';
 import { NavBar } from '../AppBar/AppBar.stories';
 import { Headline } from '../Headline/Headline';
 import './Store.css';
@@ -38,24 +38,24 @@ export const Store = () => {
     // };
 
 
-    const ticketOptions = [
-        { value: 1, label: 'Economy' },
-        { value: 2, label: 'Business' },
+    // const ticketOptions = [
+    //     { value: 1, label: 'Economy' },
+    //     { value: 2, label: 'Business' },
 
-    ];
+    // ];
 
     const info = {
         headline: "Lippukauppa",
         text: "Hei, täältä voit ostaa itsellesi sähköisen matkustusasiakirjan tapahtumaa varten."
     }
 
-    const handleTicketOption = (e) => {
-        e.preventDefault();
-        // console.log(e.target.value);
-        setTicketType(e.target.value);
-    }
+    // const handleTicketOption = (e) => {
+    //     e.preventDefault();
+    //     // console.log(e.target.value);
+    //     setTicketType(e.target.value);
+    // }
 
-    const [ticketType, setTicketType] = useState(ticketOptions[0].value);
+    // const [ticketType, setTicketType] = useState(ticketOptions[0].value);
 
     // console.log(ticketOptions[0].value);
 
@@ -65,13 +65,13 @@ export const Store = () => {
                 <div className="StoreWrapper">
                     <Headline info={info} />
                     <div className="TicketSelector">
-                        <SelectTicket ticketType={ticketType} handleTicketOption={handleTicketOption} ticketOptions={ticketOptions} />
+                        {/* <SelectTicket ticketType={ticketType} handleTicketOption={handleTicketOption} ticketOptions={ticketOptions} />
                         <div className="StoreProductContainer">
-                            {/* {ticketType == 1 ? (<div className="StoreProductWrapper">
+                            {ticketType == 1 ? (<div className="StoreProductWrapper">
                                 <Economy />
                             </div>) : (<div className="StoreProductWrapper">
                                 <Business />
-                            </div>)} */}
+                            </div>)}
 
                             {ticketType === 1 ? (<div className="StoreProductWrapper">
                                 <a href="https://buy.stripe.com/6oE9AAcHJ9XGdCU146"><h2>Economy</h2> tää on linkki</a>
@@ -79,9 +79,11 @@ export const Store = () => {
                                 <a href="https://buy.stripe.com/5kA4gggXZd9S7ew5kn"><h2>Business</h2> tääkin on linkki</a>
                             </div>)}
 
-                        </div>
+                        </div> */}
 
                         <div className="TermsLinkWrapper">
+                            <a href="https://www.jurrispora.fi/terms" target="_blank" rel="noreferrer">Economy-luokan lippu</a>
+                            <a href="https://www.jurrispora.fi/terms" target="_blank" rel="noreferrer">Business-luokan lippu</a>
                             <a href="https://www.jurrispora.fi/terms" target="_blank" rel="noreferrer">Kuljetusehdot</a>
                         </div>
                         
