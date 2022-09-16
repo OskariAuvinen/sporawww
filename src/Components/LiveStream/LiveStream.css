@@ -5,6 +5,14 @@
     display: flex;
 }
 
+  .react-player {
+    position: relative;
+  }
+  
+  .react-player > div {
+    position: absolute;
+  }
+
 .LiveStreamContainer {
     width: 100%;
     display: inline-block;
@@ -13,11 +21,12 @@
     margin-left: auto;
     margin-right: auto;
 }
+
 .StoryCardsContainer {
     width: 100%;
     margin-left: auto;
-    margin-right:auto;
-    position:relative;
+    margin-right: auto;
+    position: relative;
 }
 
 .StoryCardsWrapper {
@@ -27,6 +36,7 @@
     justify-content: center;
     flex-flow: wrap;
 }
+
 .Storycard_container {
     position: relative;
     margin: 24px;
@@ -34,6 +44,7 @@
     height: 570px;
     overflow: hidden;
 }
+
 .Storycard_imagecontainer {
     box-sizing: border-box;
     position: relative;
@@ -41,6 +52,7 @@
     width: 100%;
     height: 50%;
 }
+
 .Storycard_image {
     position: relative;
     width: 100%;
