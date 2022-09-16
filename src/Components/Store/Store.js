@@ -46,7 +46,7 @@ export const Store = () => {
 
     const info = {
         headline: "Lippukauppa",
-        text: "Hei, täältä voit ostaa itsellesi sähköisen matkustusasiakirjan tapahtumaa varten."
+        text: "Hei, täältä voit ostaa itsellesi sähköisen matkustusasiakirjan tapahtumaa varten. Economy-luokan lippu sisältää matkan, Business-luokan lipussa saat VIP-paketin kaupan päälle. VIP-paketissa tulee mukana yllätysämpäri."
     }
 
     // const handleTicketOption = (e) => {
