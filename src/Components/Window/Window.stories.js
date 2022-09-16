@@ -8,12 +8,15 @@ import {
   // Panel
 } from 'react95';
 
+/* eslint-disable */
 export default {
   title: 'Window',
   component: Window,
   subcomponents: { WindowHeader, WindowContent },
   decorators: [story => <Wrapper>{story()}</Wrapper>]
 };
+/* eslint-enable */
+
 const Wrapper = styled.div`
   padding: 5rem;
   background: ___CSS_0___;
