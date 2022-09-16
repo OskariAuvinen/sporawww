@@ -28,7 +28,7 @@ export const Faq = () => {
         },
         {
             question: "Pitäsköhän sitä tulla herättelee *FirmaX:n* muistoja?",
-            answer: "Ehdottmasti. On hyvä tulla katselemaan sekä kuuntelemaan miksi nykyisessä työpaikassaan on monet asiat paremmin."
+            answer: "Ehdottomasti. On hyvä tulla katselemaan sekä kuuntelemaan miksi nykyisessä työpaikassaan on monet asiat paremmin."
         },
         {
             question: "Haluan paritella Niko *****ston kanssa ohjaamossa. Sisältyykö kymppiin?",
