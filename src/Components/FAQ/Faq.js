@@ -49,7 +49,7 @@ export const Faq = () => {
                 </div>
                 <div className="FaqTextWrapper">
                     <div className="FaqText">
-                    Kysymyksiä Jurrispårasta? Täältä löydät vastauksia. Jos et löydä mitä etsit, ethän ota meihin yhteyttä. 
+                    Kysymyksiä Jurrispårasta? Täältä löydät vastauksia. Jos et löydä mitä etsit, ethän ota meihin yhteyttä. Asiakaspalvelumme ei palvele numerossa +358454904999.
                     </div>
                 </div>
                 <div className="FaqWrapper">
