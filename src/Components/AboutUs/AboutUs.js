@@ -40,6 +40,13 @@ export const AboutUs = () => {
             introduction: 'Filip "DJ-Sahis" Kgryczzhinskiy. Vuokratyöläinen Varsovan kaduilta. Soittaa neuvostoajan kovimmat ja tykeimmät technot. Ei puhu suomea kun kännissä. Kuvaa klikkaamalla voit tutustua DJ-Sahiksen taidonnäytteeseen. Tykkää konsonanteista.',
             imgURL: "assets/images/filip.jpeg",
             linkUrl: "https://youtu.be/UOV3pBYpkdM?t=1m12s"
+        },
+        {
+            headline: 'Emma.exe',
+            title: 'Kiintiönainen',
+            introduction: 'Esittely tulossa.',
+            imgURL: "assets/images/emma.jpeg",
+            linkUrl: ''
         }
     ]
 
