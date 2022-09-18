@@ -28,6 +28,7 @@
 .FaqHeadline {
     font-size: 3rem;
     color: #fff;
+    margin: 20px 10px 20px 10px;
 }
 .FaqTextWrapper {
     margin-top: 50px;
@@ -43,6 +44,7 @@
 .FaqText {
     font-size: 1.2rem;
     color: #fff;
+    margin: 20px 10px 20px 10px;
 }
 
 .FaqWrapper {

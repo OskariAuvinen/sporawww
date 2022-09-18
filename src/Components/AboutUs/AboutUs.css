@@ -20,6 +20,7 @@
     margin-right:auto;
     position:relative;
     margin-bottom: 150px;
+    padding-bottom: calc(10vh + 10px);
 }
 
 .StoryCardsWrapper {

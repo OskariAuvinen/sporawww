@@ -23,6 +23,10 @@
   flex-flow: wrap;
 }
 
+.AppHeadlineContainer {
+  padding-bottom: calc(7vh + 10px);
+}
+
 .SporaHeroContainer {
   width: 100%;
   display: inline-block;
