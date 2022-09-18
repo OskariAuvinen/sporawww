@@ -44,7 +44,7 @@ export const AboutUs = () => {
         {
             headline: 'Emma.exe',
             title: 'Kiintiönainen',
-            introduction: 'Esittely tulossa.',
+            introduction: 'Emma "muija" Kääpiö. Uusin jäsenemme toksisen maskuliiniseen ryhmäämme on muija Kontulasta. Tulee reissulle työkokeiluun setien kanssa. Haaveammattina bubiruusuilu.',
             imgURL: "assets/images/emma.jpeg",
             linkUrl: ''
         }
