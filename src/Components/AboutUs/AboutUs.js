@@ -60,11 +60,11 @@ export const AboutUs = () => {
         <div className="AboutUs">
             <div className="AboutUsContainer">
                 <Headline info={info} />
-            <div className="StoryCardsContainer">
-                <div className="StoryCardsWrapper">
-                    {stories.map((sc, index) => <StoryCard key={sc.headline + index} storycard={sc}/>)}
+                <div className="StoryCardsContainer">
+                    <div className="StoryCardsWrapper">
+                        {stories.map((sc, index) => <StoryCard key={sc.headline + index} storycard={sc} />)}
+                    </div>
                 </div>
-            </div>
                 <NavBar />
             </div>
         </div>

@@ -2,6 +2,8 @@ import React from 'react'; // otettu useState vittuu
 // import { SelectTicket } from '../Select/SelectTicket.story';
 import { NavBar } from '../AppBar/AppBar.stories';
 import { Headline } from '../Headline/Headline';
+import { StoryCard } from '../StoryCard/StoryCard.stories';
+
 import './Store.css';
 
 // import { loadStripe } from "@stripe/stripe-js";
@@ -15,34 +17,29 @@ import './Store.css';
 
 export const Store = () => {
 
-
-    // const [clientSecret, setClientSecret] = useState("");
-
-    // useEffect(() => {
-    //     // Create PaymentIntent as soon as the page loads
-    //     fetch("/store/create-payment-intent", {
-    //         method: "POST",
-    //         headers: { "Content-Type": "application/json" },
-    //         body: JSON.stringify({ items: [{ id: "xl-tshirt" }] }),
-    //     })
-    //         .then((res) => res.json())
-    //         .then((data) => setClientSecret(data.clientSecret));
-    // }, []);
-
-    // const appearance = {
-    //     theme: 'stripe',
-    // };
-    // const options = {
-    //     clientSecret,
-    //     appearance,
-    // };
-
-
-    // const ticketOptions = [
-    //     { value: 1, label: 'Economy' },
-    //     { value: 2, label: 'Business' },
-
-    // ];
+    const links = [
+        {
+            headline: 'Economy.exe',
+            title: 'Lippu',
+            introduction: 'Spåralippu 15 rahaa. Tällä lipulla pääset matkustamaan 15.10.2022 Jurrispårassa',
+            imgURL: "assets/images/spora_economy.jpg",
+            linkUrl: 'https://buy.stripe.com/6oE9AAcHJ9XGdCU146'
+        },
+        {
+            headline: 'Business.exe',
+            title: 'VIP lippu',
+            introduction: 'Spåralippu 20 rahaa. Tälläkin lipulla pääset matkustamaan 15.10.2022 Jurrispårassa. Vip lippu sisältää jurrispårasangon ja jonkun huonon yllärilahjan.',
+            imgURL: "assets/images/spora_business.jpg",
+            linkUrl: 'https://buy.stripe.com/5kA4gggXZd9S7ew5kn'
+        },
+        {
+            headline: 'Kuljetusehdot.exe',
+            title: 'Matkustusehdot',
+            introduction: 'Nämä ehdot määrittelevät Jurrispåran ja sen asiakkaiden ”oikeudet” ja velvoitteet.',
+            imgURL: "assets/images/sporahero.jpg",
+            linkUrl: 'https://www.jurrispora.fi/terms'
+        }
+    ]
 
     const info = {
         headline: "Lippukauppa",
@@ -81,12 +78,24 @@ export const Store = () => {
 
                         </div> */}
 
-                        <div className="TermsLinkWrapper">
-                            <a href="https://www.jurrispora.fi/terms" target="_blank" rel="noreferrer">Economy-luokan lippu</a>
-                            <a href="https://www.jurrispora.fi/terms" target="_blank" rel="noreferrer">Business-luokan lippu</a>
-                            <a href="https://www.jurrispora.fi/terms" target="_blank" rel="noreferrer">Kuljetusehdot</a>
+                        {/* <div className="StoreLinkWrapper">
+                            <div className="StoreLinkItem">
+                                <a href="https://buy.stripe.com/6oE9AAcHJ9XGdCU146" target="_blank" rel="noreferrer">Economy-luokan lippu</a>
+                            </div>
+                            <div className="StoreLinkItem">
+                                <a href="https://buy.stripe.com/5kA4gggXZd9S7ew5kn" target="_blank" rel="noreferrer">Business-luokan lippu</a>
+                            </div>
+                            <div className="StoreLinkItem">
+                                <a href="https://www.jurrispora.fi/terms" target="_blank" rel="noreferrer">Kuljetusehdot</a>
+                            </div>
+                        </div> */}
+
+                        <div className="StoreStoryCardsContainer">
+                            <div className="StoryCardsWrapper">
+                                {links.map((sc, index) => <StoryCard key={sc.headline + index} storycard={sc} />)}
+                            </div>
                         </div>
-                        
+
                         {/* {clientSecret && (
                             <Elements options={options} stripe={stripePromise}>
                                 <CheckoutForm />

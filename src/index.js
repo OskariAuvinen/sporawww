@@ -27,6 +27,7 @@ import { Gallery } from './Components/Gallery/Gallery';
 import { Faq } from './Components/FAQ/Faq';
 import { Terms } from './Components/Terms/Terms';
 import { LiveStream } from './Components/LiveStream/LiveStream';
+import { Info } from './Components/Info/Info';
 
 const GlobalStyles = createGlobalStyle`
   @font-face {
@@ -61,6 +62,7 @@ root.render(
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/live" element={<LiveStream />} />
+        <Route path="info" element={<Info />}/>
       </Routes>
         {/* <App />
         <NavBar /> */}
