@@ -17,8 +17,8 @@
 .StoryCardsContainer {
     width: 100%;
     margin-left: auto;
-    margin-right:auto;
-    position:relative;
+    margin-right: auto;
+    position: relative;
     margin-bottom: 150px;
     padding-bottom: calc(10vh + 10px);
 }
@@ -51,4 +51,10 @@
     position: relative;
     width: 100%;
     height: 100%;
+}
+
+@media screen and (max-width: 320px) {
+    .Storycard_intorduction {
+        font-size: 0.8rem;
+    }
 }

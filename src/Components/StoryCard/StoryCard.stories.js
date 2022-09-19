@@ -41,7 +41,7 @@ export const StoryCard = ({ storycard }) => (
       </div>
       </a>)}
       <Panel variant='well' className='footer'>
-        <p>{storycard.introduction}</p>
+        <p className="Storycard_intorduction">{storycard.introduction}</p>
       </Panel>
     </Window>
 
