@@ -3,6 +3,7 @@ import { NavBar } from '../AppBar/AppBar.stories';
 import { Headline } from '../Headline/Headline';
 import './LiveStream.css'
 import ReactHlsPlayer from 'react-hls-player';
+import GoogleAd from '../Ads';
 
 
 export const LiveStream = () => {
@@ -24,6 +25,7 @@ export const LiveStream = () => {
                     width="100%"
                     height="auto"
                 />
+                <GoogleAd slot="9549432519" googleAdId="ca-pub-2083520398409749"/>
                 <NavBar />
             </div>
         </div>
