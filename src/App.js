@@ -2,7 +2,10 @@ import './App.css';
 import { NavBar } from './Components/AppBar/AppBar.stories';
 import { Headline } from './Components/Headline/Headline';
 import { HeadlineWindow } from './Components/Window/Window.stories';
+import ReactGA from "react-ga4";
 
+ReactGA.initialize("G-S1JX8VGXWL");
+ReactGA.send("pageview");
 
 function App() {
 
