@@ -3,6 +3,7 @@ import { NavBar } from '../AppBar/AppBar.stories';
 import { ImageCard } from '../ImageCard/ImageCard';
 import { Headline } from '../Headline/Headline';
 import './Gallery.css';
+import {Helmet} from "react-helmet";
 
 export const Gallery = () => {
     const images = [
@@ -120,6 +121,11 @@ export const Gallery = () => {
     return (
 
         <div className="Gallery">
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>Kuvagalleria</title>
+            <link rel="canonical" href="https://jurrispora.fi/gallery" />
+        </Helmet>
             <div className="GalleryContainer">
             <Headline info={info} />
             <div className="GallerysContainer">
