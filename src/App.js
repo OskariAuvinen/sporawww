@@ -29,7 +29,9 @@ function App() {
                 />
               </div>
             </div>
+            <div className="AppHeadlineContainer">
             <Headline info={info} />
+            </div>
             <NavBar />
           </div>
         </div>

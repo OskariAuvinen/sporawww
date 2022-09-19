@@ -1,4 +1,4 @@
-.Faq {
+.Info {
     background-color: teal;
     width: 100%;
     display: flex;
@@ -6,7 +6,7 @@
     padding-bottom: calc(7vh + 5px);
 }
 
-.FaqContainer {
+.InfoContainer {
     /* display: flex;
     flex-flow: row nowrap; */
     margin-left: auto;
@@ -17,7 +17,7 @@
     max-width: 650px;
 }
 
-.FaqHeadlineWrapper {
+.InfoHeadlineWrapper {
     margin-top: 50px;
     flex-flow: column nowrap;
     text-align: center;
@@ -25,12 +25,11 @@
     justify-content: center;
 }
 
-.FaqHeadline {
+.InfoHeadline {
     font-size: 3rem;
     color: #fff;
-    margin: 20px 10px 20px 10px;
 }
-.FaqTextWrapper {
+.InfoTextWrapper {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: auto;
@@ -40,13 +39,18 @@
     max-width: 650px;
 
 }
-
-.FaqText {
-    font-size: 1.2rem;
+.InfoTextHeadline {
+    font-size: 2rem;
     color: #fff;
     margin: 20px 10px 20px 10px;
 }
 
-.FaqWrapper {
+.InfoText {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 10px;
+}
+
+.InfoWrapper {
     background-color: teal;
 }

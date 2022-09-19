@@ -13,11 +13,14 @@
     margin-left: auto;
     margin-right: auto;
 }
+
 .StoryCardsContainer {
     width: 100%;
     margin-left: auto;
     margin-right:auto;
     position:relative;
+    margin-bottom: 150px;
+    padding-bottom: calc(10vh + 10px);
 }
 
 .StoryCardsWrapper {
@@ -27,6 +30,7 @@
     justify-content: center;
     flex-flow: wrap;
 }
+
 .Storycard_container {
     position: relative;
     margin: 24px;
@@ -34,6 +38,7 @@
     height: 570px;
     overflow: hidden;
 }
+
 .Storycard_imagecontainer {
     box-sizing: border-box;
     position: relative;
@@ -41,6 +46,7 @@
     width: 100%;
     height: 50%;
 }
+
 .Storycard_image {
     position: relative;
     width: 100%;
