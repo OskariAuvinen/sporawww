@@ -5,6 +5,7 @@ import { Headline } from '../Headline/Headline';
 import { StoryCard } from '../StoryCard/StoryCard.stories';
 
 import './Store.css';
+import {Helmet} from "react-helmet";
 
 // import { loadStripe } from "@stripe/stripe-js";
 // import { Elements } from "@stripe/react-stripe-js";
@@ -58,6 +59,11 @@ export const Store = () => {
 
     return (
         <div className="Store">
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>Verkkokauppa</title>
+            <link rel="canonical" href="https://jurrispora.fi/store" />
+        </Helmet>
             <div className="StoreContainer">
                 <div className="StoreWrapper">
                     <Headline info={info} />

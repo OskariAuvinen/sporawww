@@ -2,7 +2,7 @@ import './App.css';
 import { NavBar } from './Components/AppBar/AppBar.stories';
 import { Headline } from './Components/Headline/Headline';
 import { HeadlineWindow } from './Components/Window/Window.stories';
-
+import {Helmet} from "react-helmet";
 
 function App() {
 
@@ -14,6 +14,11 @@ function App() {
   return (
 
       <div className="App">
+      <Helmet>
+          <meta charSet="utf-8" />
+          <title>Jurrispora Ry</title>
+          <link rel="canonical" href="https://jurrispora.fi" />
+      </Helmet>
 
         <div className="AppContainer">
           <div className="AppWrapper">

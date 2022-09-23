@@ -28,6 +28,10 @@ import { Faq } from './Components/FAQ/Faq';
 import { Terms } from './Components/Terms/Terms';
 import { LiveStream } from './Components/LiveStream/LiveStream';
 import { Info } from './Components/Info/Info';
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-S1JX8VGXWL");
+ReactGA.send("pageview");
 
 const GlobalStyles = createGlobalStyle`
   @font-face {

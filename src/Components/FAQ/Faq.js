@@ -2,6 +2,7 @@ import React from 'react';
 import { NavBar } from '../AppBar/AppBar.stories';
 import { FaqItem } from '../FAQITem/FaqItem';
 import './Faq.css';
+import {Helmet} from "react-helmet";
 
 export const Faq = () => {
 
@@ -43,13 +44,18 @@ export const Faq = () => {
     return (
 
         <div className="Faq">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Usein kysytyt kysymykset</title>
+                <link rel="canonical" href="https://jurrispora.fi/faq" />
+            </Helmet>
             <div className="FaqContainer">
                 <div className="FaqHeadlineWrapper">
                     <h1 className="FaqHeadline">Usein kysytyt kysymykset</h1>
                 </div>
                 <div className="FaqTextWrapper">
                     <div className="FaqText">
-                    Kysymyksiä Jurrispårasta? Täältä löydät vastauksia. Jos et löydä mitä etsit, ethän ota meihin yhteyttä. Asiakaspalvelumme ei palvele numerossa <a href="tel:+358454904999">+358454904999</a>.
+                        Kysymyksiä Jurrispårasta? Täältä löydät vastauksia. Jos et löydä mitä etsit, ethän ota meihin yhteyttä. Asiakaspalvelumme ei palvele numerossa <a href="tel:+358454904999">+358454904999</a>.
                     </div>
                 </div>
                 <div className="FaqWrapper">
