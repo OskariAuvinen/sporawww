@@ -3,6 +3,7 @@ import { NavBar } from '../AppBar/AppBar.stories';
 import { Headline } from '../Headline/Headline';
 import { StoryCard } from '../StoryCard/StoryCard.stories';
 import './AboutUs.css'
+import { Helmet } from "react-helmet";
 
 export const AboutUs = () => {
     const stories = [
@@ -59,6 +60,11 @@ export const AboutUs = () => {
     return (
 
         <div className="AboutUs">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Tietoa meistä</title>
+                <link rel="canonical" href="https://jurrispora.fi/aboutus" />
+            </Helmet>
             <div className="AboutUsContainer">
                 <Headline info={info} />
                 <div className="StoryCardsContainer">

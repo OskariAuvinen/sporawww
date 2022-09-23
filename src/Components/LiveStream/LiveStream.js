@@ -4,10 +4,12 @@ import { Headline } from '../Headline/Headline';
 import './LiveStream.css'
 import ReactHlsPlayer from 'react-hls-player';
 import GoogleAd from '../Ads';
+import {Helmet} from "react-helmet";
+import ReactGA from "react-ga4";
 
+ReactGA.send({ hitType: "pageview", page: "/live" });
 
 export const LiveStream = () => {
-
     const info = {
         headline: "Live",
         text: "Tervetuloa katsomaan livesyötettä jurrisporasta. Lähetys alkaa kun alkaa ja loppuu kun on loppuakseen."
@@ -16,6 +18,11 @@ export const LiveStream = () => {
     return (
 
         <div className="LiveStream">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Livestream</title>
+                <link rel="canonical" href="https://jurrispora.fi/live" />
+            </Helmet>
             <div className="LiveStreamContainer">
                 <Headline info={info} />
                 <ReactHlsPlayer
