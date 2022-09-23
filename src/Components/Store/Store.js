@@ -2,7 +2,7 @@ import React from 'react'; // otettu useState vittuu
 // import { SelectTicket } from '../Select/SelectTicket.story';
 import { NavBar } from '../AppBar/AppBar.stories';
 import { Headline } from '../Headline/Headline';
-import { StoryCard } from '../StoryCard/StoryCard.stories';
+// import { StoryCard } from '../StoryCard/StoryCard.stories';
 
 import './Store.css';
 import { Helmet } from "react-helmet";
