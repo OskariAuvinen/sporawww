@@ -8,8 +8,13 @@ function App() {
 
   const info = {
     headline: "Lyhyesti",
-    text: "Olemme krapulatilaa tavoitteleva kotimainen järjestö joka toimii useimmiten päihtyneenä ja useimmiten pääkaupunkiseudun alueella. Paska, paskempi, paskin -palvelu on mottomme."
+    text: "Olemme krapulatilaa tavoitteleva kotimainen järjestö joka toimii useimmiten päihtyneenä ja useimmiten pääkaupunkiseudun alueella. Paska, paskempi, paskin -palvelu on mottomme. Asiakaspalvelumme palvelee teitä n. 24h numerossa +358454904999"
   }
+
+  // const info2 = {
+  //   headline: "",
+  //   text: " Asiakaspalvelumme palvelee teitä n. 24h numerossa +358454904999"
+  // }
 
   return (
 
@@ -37,6 +42,9 @@ function App() {
           <div className="AppHeadlineContainer">
             <Headline info={info} />
           </div>
+          {/* <div className="AppHeadlineContainer">
+            <Headline info={info2} />
+          </div> */}
           <NavBar />
         </div>
       </div>
