@@ -27,7 +27,7 @@ export const Info = () => {
                         Matkan aikana
                     </div>
                     <div className="InfoText">
-                        Lasipullot ja erilliset juoma-astiat, paitsi tapahtuman virallinen VIP-ämpäri, ovat kiellettyjä ja näistä kiinni jäädessään ei neuvotella. Tee siis drinkkisi ennakkoon muovipulloihin ja otathan pienemmät juomat tölkkeinä mukaan. Asiakaspalvelumme palvelee teitä n. 24h numerossa +358454904999
+                        Lasipullot ja erilliset juoma-astiat, paitsi tapahtuman virallinen VIP-ämpäri, ovat kiellettyjä ja näistä kiinni jäädessään ei neuvotella. Tee siis drinkkisi ennakkoon muovipulloihin ja otathan pienemmät juomat tölkkeinä mukaan. Asiakaspalvelumme "palvelee" teitä n. 24h numerossa +358454904999
                     </div>
                     <div className="InfoTextHeadline">
                         Edut:

@@ -49,7 +49,7 @@ export const Store = () => {
 
     const info2 = {
         headline: "15.10.2022 Tapahtuma loppuun_myyty verkossa",
-        text: "Hätätilanteissa otathan yhteyttä asiakaspalveluumme. Asiakaspalvelumme palvelee suunnilleen 24h numerossa +358454904999"
+        text: `Hätätilanteissa otathan yhteyttä asiakaspalveluumme. Asiakaspalvelumme "palvelee" suunnilleen 24h numerossa +358454904999`
     }
 
     // const handleTicketOption = (e) => {

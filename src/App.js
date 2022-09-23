@@ -8,7 +8,7 @@ function App() {
 
   const info = {
     headline: "Lyhyesti",
-    text: "Olemme krapulatilaa tavoitteleva kotimainen järjestö joka toimii useimmiten päihtyneenä ja useimmiten pääkaupunkiseudun alueella. Paska, paskempi, paskin -palvelu on mottomme. Asiakaspalvelumme palvelee teitä n. 24h numerossa +358454904999"
+    text: `Olemme krapulatilaa tavoitteleva kotimainen järjestö joka toimii useimmiten päihtyneenä ja useimmiten pääkaupunkiseudun alueella. Paska, paskempi, paskin -palvelu on mottomme. Asiakaspalvelumme "palvelee" teitä n. 24h numerossa +358454904999`
   }
 
   // const info2 = {
