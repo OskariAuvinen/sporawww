@@ -18,23 +18,28 @@ export const Info = () => {
                 </div>
                 <div className="InfoWrapper">
                     <div className="InfoTextHeadline">
-                        Jatkot ja Etkot
+                        Etkot ja Jatkot
                     </div>
                     <div className="InfoText">
-                        Tähän tulee sit joskus tietoa virallisista jatkoista
+                        Tapahtuman virallisina etko- ja jatkopaikkoina toimivat Mikonkadun ravintolat Henry's Pub sekä On The Rocks. 
                     </div>
                     <div className="InfoTextHeadline">
                         Matkan aikana
                     </div>
                     <div className="InfoText">
-                        Mitä saa tehdä ja mitä ei saa tehdä. Mitä ei kannata tehdä. Muuta hyvä tietää?
-                        Aikatauluja ja jotain.
+                        Lasipullot ja erilliset juoma-astiat ovat kiellettyjä ja näistä kiinni jäädessään ei neuvotella. Tee siis drinkkisi ennakkoon muovipulloihin ja otathan pienemmät juomat tölkkeinä mukaan.
                     </div>
                     <div className="InfoTextHeadline">
                         Edut
                     </div>
                     <div className="InfoText">
-                        Tarjoukset ja edut. Varmaan jonkun muun palikan yhteyteen
+                        Ajon aikana kusitauot pyritään järjestämään n. tunnin välein yllä mainituissa baareissa. WC:ssä käynti aiheuttaa humalaa, koska se edellyttää osaa teitä wc:ssä käyviä ostamaan 2cl shotin, jonka olemme saaneet tarjoushinnalla 3,25.
+                        <br></br>
+                        <p>On The Rocks 2cl Salmaria.</p>
+                        <br></br>
+                        <p>Henry's Pub 2cl Fisua.</p>
+                        <br></br>
+                        <p>Tarjous on voimassa tiskillä matkalippua näyttämällä ajon aikana.</p>
                     </div>
                 </div>
                 <NavBar />
