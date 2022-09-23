@@ -12,7 +12,7 @@
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  position:relative;
+  position: relative;
 }
 
 .AppWrapper {
@@ -34,7 +34,7 @@
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  position:relative;
+  position: relative;
 }
 
 .SporaHeroImgWrapper {
@@ -50,8 +50,9 @@
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%; 
+  width: 50%;
 }
+
 .SporaHeroContent {
   display: inline-block;
   margin-left: auto;

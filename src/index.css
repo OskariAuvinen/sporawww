@@ -21,9 +21,10 @@ code {
   font-weight: bold;
   font-style: normal
 }
-.cFNRdG{
-    bottom: 0 !important;
-    top: auto !important;
+
+.cFNRdG {
+  bottom: 0 !important;
+  top: auto !important;
 }
 
 .iHdkeE {
@@ -32,7 +33,7 @@ code {
 }
 
 .lnhFiS {
-  text-align: left!important;
-  width: 100%!important;
-  display: flex!important;
+  text-align: left !important;
+  width: 100% !important;
+  display: flex !important;
 }

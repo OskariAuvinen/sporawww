@@ -2,7 +2,7 @@ import React from 'react';
 import { Panel } from 'react95';
 
 
-export const GreyBox = ( { h1 }) => (
+export const GreyBox = ({ h1 }) => (
     <Panel
         variant='outside'
         shadow
@@ -11,7 +11,7 @@ export const GreyBox = ( { h1 }) => (
         <h1 style={{ padding: '0.5rem' }}>
             {h1}
         </h1>
-        
+
     </Panel>
 );
 

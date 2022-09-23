@@ -2,7 +2,7 @@ import React from 'react';
 import { NavBar } from '../AppBar/AppBar.stories';
 import { FaqItem } from '../FAQITem/FaqItem';
 import './Faq.css';
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 export const Faq = () => {
 

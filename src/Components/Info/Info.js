@@ -1,17 +1,17 @@
 import React from 'react';
 import { NavBar } from '../AppBar/AppBar.stories';
 import './Info.css';
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 export const Info = () => {
     return (
 
         <div className="Info">
-        <Helmet>
-            <meta charSet="utf-8" />
-            <title>Info</title>
-            <link rel="canonical" href="https://jurrispora.fi/info" />
-        </Helmet>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Info</title>
+                <link rel="canonical" href="https://jurrispora.fi/info" />
+            </Helmet>
             <div className="InfoContainer">
                 <div className="InfoHeadlineWrapper">
                     <h1 className="InfoHeadline">Hyvä tietää:</h1>

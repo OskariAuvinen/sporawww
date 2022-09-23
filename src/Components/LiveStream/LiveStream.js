@@ -4,7 +4,7 @@ import { Headline } from '../Headline/Headline';
 import './LiveStream.css'
 import ReactHlsPlayer from 'react-hls-player';
 import GoogleAd from '../Ads';
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 import ReactGA from "react-ga4";
 
 ReactGA.send({ hitType: "pageview", page: "/live" });
@@ -32,7 +32,7 @@ export const LiveStream = () => {
                     width="100%"
                     height="auto"
                 />
-                <GoogleAd slot="9549432519" googleAdId="ca-pub-2083520398409749"/>
+                <GoogleAd slot="9549432519" googleAdId="ca-pub-2083520398409749" />
                 <NavBar />
             </div>
         </div>

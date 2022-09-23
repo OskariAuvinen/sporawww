@@ -6,13 +6,13 @@
     padding-bottom: calc(7vh + 5px);
 }
 
-  .react-player {
+.react-player {
     position: relative;
-  }
-  
-  .react-player > div {
+}
+
+.react-player>div {
     position: absolute;
-  }
+}
 
 .LiveStreamContainer {
     width: 100%;

@@ -1,5 +1,5 @@
 export const Message = ({ message }) => (
-    <section>
-      <p>{message}</p>
-    </section>
-  );
+  <section>
+    <p>{message}</p>
+  </section>
+);

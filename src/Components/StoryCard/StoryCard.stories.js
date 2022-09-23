@@ -30,16 +30,16 @@ export const StoryCard = ({ storycard }) => (
           </img>
         </div>
       ) : (
-      <a href={storycard.linkUrl} target="_blank" rel="noreferrer">
-      <div className='Storycard_imagecontainer'>
-        <img
-          className="Storycard_image"
-          src={process.env.PUBLIC_URL + storycard.imgURL}
-          alt={storycard.title}
-        >
-        </img>
-      </div>
-      </a>)}
+        <a href={storycard.linkUrl} target="_blank" rel="noreferrer">
+          <div className='Storycard_imagecontainer'>
+            <img
+              className="Storycard_image"
+              src={process.env.PUBLIC_URL + storycard.imgURL}
+              alt={storycard.title}
+            >
+            </img>
+          </div>
+        </a>)}
       <Panel variant='well' className='footer'>
         <p className="Storycard_intorduction">{storycard.introduction}</p>
       </Panel>

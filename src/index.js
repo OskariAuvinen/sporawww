@@ -58,16 +58,16 @@ root.render(
     <BrowserRouter>
       <GlobalStyles />
       <ThemeProvider theme={original}>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/store" element={<Store />} />
-        <Route path="/faq" element={<Faq />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/terms" element={<Terms />} />
-        <Route path="/live" element={<LiveStream />} />
-        <Route path="info" element={<Info />}/>
-      </Routes>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/store" element={<Store />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/live" element={<LiveStream />} />
+          <Route path="info" element={<Info />} />
+        </Routes>
         {/* <App />
         <NavBar /> */}
       </ThemeProvider>

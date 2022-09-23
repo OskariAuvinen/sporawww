@@ -1,7 +1,7 @@
 import React from 'react';
 import './Headline.css';
 
-export const Headline = ( { info } ) => {
+export const Headline = ({ info }) => {
 
     return (
 

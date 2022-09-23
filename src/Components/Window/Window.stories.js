@@ -68,7 +68,7 @@ const Wrapper = styled.div`
     padding-left: 0.25rem;
   }
 `;
-export const HeadlineWindow = ( { h1 } ) => (
+export const HeadlineWindow = ({ h1 }) => (
   <>
     <Window className='window'>
       <WindowHeader className='window-header'>
@@ -95,7 +95,7 @@ export const HeadlineWindow = ( { h1 } ) => (
         <p>JurriSpåran verkkosivu, galleria, verkkokauppa yms.. Navigoi painamalla "Aloita" alanavigaatiosta. Moi T.</p>
       </Panel> */}
     </Window>
-{/* 
+    {/* 
     <Window className='window'>
       <WindowHeader active={false} className='window-header'>
         <span>not-active.exe</span>

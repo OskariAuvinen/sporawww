@@ -33,11 +33,11 @@ import { Select, Fieldset } from 'react95';
 //   decorators: [story => <Wrapper>{story()}</Wrapper>]
 // };
 
-export function SelectTicket( { ticketType, handleTicketOption, ticketOptions }) {
+export function SelectTicket({ ticketType, handleTicketOption, ticketOptions }) {
   return (
     <div id='default-selects'>
       <Fieldset label='Tuotevalinta'>
-       <Select
+        <Select
           defaultValue={ticketType[0]}
           options={ticketOptions}
           menuMaxHeight={160}
@@ -53,7 +53,7 @@ SelectTicket.story = {
   name: 'SelectTicket'
 };
 
-export function CustomDisplayFormatting( { ticketType, handleTicketOption, ticketOptions } ) {
+export function CustomDisplayFormatting({ ticketType, handleTicketOption, ticketOptions }) {
   return (
     <Select
       formatDisplay={opt => `${opt.label.toUpperCase()} 👍 👍`}
@@ -61,7 +61,7 @@ export function CustomDisplayFormatting( { ticketType, handleTicketOption, ticke
       options={ticketOptions}
       width={220}
     />
-      );
+  );
 }
 
 CustomDisplayFormatting.story = {

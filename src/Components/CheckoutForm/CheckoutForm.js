@@ -22,7 +22,7 @@ export const CheckoutForm = () => {
         headers: {
           "Content-Type": "application/json"
         },
-        body: JSON.stringify({items: [{ id: "xl-tshirt" }]})
+        body: JSON.stringify({ items: [{ id: "xl-tshirt" }] })
       })
       .then(res => {
         return res.json();
