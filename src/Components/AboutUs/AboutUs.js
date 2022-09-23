@@ -2,7 +2,7 @@ import React from 'react';
 import { NavBar } from '../AppBar/AppBar.stories';
 import { Headline } from '../Headline/Headline';
 import { StoryCard } from '../StoryCard/StoryCard.stories';
-import './AboutUs.css'
+import './AboutUs.css';
 
 export const AboutUs = () => {
     const stories = [
