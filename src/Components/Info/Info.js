@@ -33,7 +33,7 @@ export const Info = () => {
                         Edut
                     </div>
                     <div className="InfoText">
-                        Ajon aikana kusitauot pyritään järjestämään n. tunnin välein yllä mainituissa baareissa. WC:ssä käynti aiheuttaa humalaa, koska se edellyttää osaa teitä wc:ssä käyviä ostamaan 2cl shotin, jonka olemme saaneet tarjoushinnalla 3,25.
+                        Ajon aikana kusitauot pyritään järjestämään n. tunnin välein yllä mainituissa baareissa. WC:ssä käynti aiheuttaa humalaa, koska se edellyttää osaa teitä wc:ssä käyviä ostamaan 2cl shotin, jonka olemme saaneet tarjoushinnalla 3,25e.
                         <br></br>
                         <p>On The Rocks 2cl Salmaria.</p>
                         <br></br>
