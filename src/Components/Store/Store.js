@@ -18,33 +18,38 @@ import { Helmet } from "react-helmet";
 
 export const Store = () => {
 
-    const links = [
-        {
-            headline: 'Economy.exe',
-            title: 'Lippu',
-            introduction: 'Spåralippu 15 rahaa. Tällä lipulla pääset matkustamaan 15.10.2022 Jurrispårassa',
-            imgURL: "assets/images/spora_economy.jpg",
-            linkUrl: 'https://buy.stripe.com/6oE9AAcHJ9XGdCU146'
-        },
-        {
-            headline: 'Business.exe',
-            title: 'VIP lippu',
-            introduction: 'Spåralippu 20 rahaa. Tälläkin lipulla pääset matkustamaan 15.10.2022 Jurrispårassa. Vip lippu sisältää jurrispårasangon ja jonkun huonon yllärilahjan.',
-            imgURL: "assets/images/spora_business.jpg",
-            linkUrl: 'https://buy.stripe.com/5kA4gggXZd9S7ew5kn'
-        },
-        {
-            headline: 'Kuljetusehdot.exe',
-            title: 'Matkustusehdot',
-            introduction: 'Nämä ehdot määrittelevät Jurrispåran ja sen asiakkaiden ”oikeudet” ja velvoitteet.',
-            imgURL: "assets/images/sporahero.jpg",
-            linkUrl: 'https://www.jurrispora.fi/terms'
-        }
-    ]
+    // const links = [
+    //     {
+    //         headline: 'Economy.exe',
+    //         title: 'Lippu',
+    //         introduction: 'Spåralippu 15 rahaa. Tällä lipulla pääset matkustamaan 15.10.2022 Jurrispårassa',
+    //         imgURL: "assets/images/spora_economy.jpg",
+    //         linkUrl: 'https://buy.stripe.com/6oE9AAcHJ9XGdCU146'
+    //     },
+    //     {
+    //         headline: 'Business.exe',
+    //         title: 'VIP lippu',
+    //         introduction: 'Spåralippu 20 rahaa. Tälläkin lipulla pääset matkustamaan 15.10.2022 Jurrispårassa. Vip lippu sisältää jurrispårasangon ja jonkun huonon yllärilahjan.',
+    //         imgURL: "assets/images/spora_business.jpg",
+    //         linkUrl: 'https://buy.stripe.com/5kA4gggXZd9S7ew5kn'
+    //     },
+    //     {
+    //         headline: 'Kuljetusehdot.exe',
+    //         title: 'Matkustusehdot',
+    //         introduction: 'Nämä ehdot määrittelevät Jurrispåran ja sen asiakkaiden ”oikeudet” ja velvoitteet.',
+    //         imgURL: "assets/images/sporahero.jpg",
+    //         linkUrl: 'https://www.jurrispora.fi/terms'
+    //     }
+    // ]
 
     const info = {
         headline: "Lippukauppa",
         text: "Hei, täältä voit ostaa itsellesi sähköisen matkustusasiakirjan tapahtumaa varten. Economy-luokan lippu sisältää matkan, Business-luokan lipussa saat VIP-paketin kaupan päälle. VIP-paketissa tulee mukana yllätysämpäri."
+    }
+
+    const info2 = {
+        headline: "15.10.2022 Tapahtuma loppuun myyty verkossa",
+        text: "Hätätilanteissa otathan yhteyttä asiakaspalveluumme. Asiakaspalvelumme palvelee suunnilleen 24h numerossa +358454904999"
     }
 
     // const handleTicketOption = (e) => {
@@ -67,8 +72,8 @@ export const Store = () => {
             <div className="StoreContainer">
                 <div className="StoreWrapper">
                     <Headline info={info} />
-                    <div className="TicketSelector">
-                        {/* <SelectTicket ticketType={ticketType} handleTicketOption={handleTicketOption} ticketOptions={ticketOptions} />
+                    {/* <div className="TicketSelector"> */}
+                    {/* <SelectTicket ticketType={ticketType} handleTicketOption={handleTicketOption} ticketOptions={ticketOptions} />
                         <div className="StoreProductContainer">
                             {ticketType == 1 ? (<div className="StoreProductWrapper">
                                 <Economy />
@@ -84,7 +89,7 @@ export const Store = () => {
 
                         </div> */}
 
-                        {/* <div className="StoreLinkWrapper">
+                    {/* <div className="StoreLinkWrapper">
                             <div className="StoreLinkItem">
                                 <a href="https://buy.stripe.com/6oE9AAcHJ9XGdCU146" target="_blank" rel="noreferrer">Economy-luokan lippu</a>
                             </div>
@@ -96,19 +101,21 @@ export const Store = () => {
                             </div>
                         </div> */}
 
-                        <div className="StoreStoryCardsContainer">
+                    {/* <div className="StoreStoryCardsContainer">
                             <div className="StoryCardsWrapper">
                                 {links.map((sc, index) => <StoryCard key={sc.headline + index} storycard={sc} />)}
                             </div>
-                        </div>
+                        </div> */}
 
-                        {/* {clientSecret && (
+                    {/* {clientSecret && (
                             <Elements options={options} stripe={stripePromise}>
                                 <CheckoutForm />
                             </Elements>
                         )} */}
+                    <Headline info={info2} />
 
-                    </div>
+
+                    {/* </div> */}
                 </div>
                 <NavBar />
             </div>
