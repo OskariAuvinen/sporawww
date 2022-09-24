@@ -132,7 +132,6 @@ export const Gallery = () => {
         <div className="Gallery">
             <Helmet>
                 <meta charSet="utf-8" />
-                <link rel="icon" href="%PUBLIC_URL%/assets/images/tram2.png" />
                 <title>Kuvagalleria</title>
                 <link rel="canonical" href="https://jurrispora.fi/gallery" />	<link rel="icon" href="%PUBLIC_URL%/assets/images/tram2.png" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />

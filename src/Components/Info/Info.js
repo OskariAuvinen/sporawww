@@ -9,7 +9,6 @@ export const Info = () => {
         <div className="Info">
             <Helmet>
                 <meta charSet="utf-8" />
-                <link rel="icon" href="%PUBLIC_URL%/assets/images/tram2.png" />
                 <title>Info</title>
                 <link rel="canonical" href="https://jurrispora.fi/info" />
                 <meta charSet="utf-8" />

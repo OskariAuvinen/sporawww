@@ -46,7 +46,6 @@ export const Faq = () => {
         <div className="Faq">
             <Helmet>
                 <meta charSet="utf-8" />
-                <link rel="icon" href="%PUBLIC_URL%/assets/images/tram2.png" />
                 <title>Usein kysytyt kysymykset</title>
                 <link rel="canonical" href="https://jurrispora.fi/faq" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
