@@ -1,11 +1,18 @@
 import React from 'react';
 import { NavBar } from '../AppBar/AppBar.stories';
 import './Terms.css';
+import { Helmet } from "react-helmet";
 
 export const Terms = () => {
     return (
 
         <div className="Terms">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <link rel="icon" href="%PUBLIC_URL%/assets/images/tram2.png" />
+                <title>Livestream</title>
+                <link rel="canonical" href="https://jurrispora.fi/terms" />
+            </Helmet>
             <div className="TermsContainer">
                 <div className="TermsHeadlineWrapper">
                     <h1 className="TermsHeadline">Matkustusehdot 15.6.2022 alkaen</h1>

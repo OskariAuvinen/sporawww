@@ -2,6 +2,7 @@ import React from 'react';
 import { NavBar } from '../AppBar/AppBar.stories';
 import { ImageCard } from '../ImageCard/ImageCard';
 import { Headline } from '../Headline/Headline';
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 import './Gallery.css';
 import { Helmet } from "react-helmet";
 
@@ -111,10 +112,18 @@ export const Gallery = () => {
             imgURL: "assets/images/26.jpg",
             title: 26
         },
+        {
+            imgURL: "assets/images/27.jpg",
+            title: 27
+        },
+        {
+            imgURL: "assets/images/28.jpg",
+            title: 28
+        }
     ]
 
     const info = {
-        headline: "Kuvia menneistä tapahtumista",
+        headline: "Materiaalia menneistä tapahtumista",
         text: ""
     }
 
@@ -123,11 +132,32 @@ export const Gallery = () => {
         <div className="Gallery">
             <Helmet>
                 <meta charSet="utf-8" />
+                <link rel="icon" href="%PUBLIC_URL%/assets/images/tram2.png" />
                 <title>Kuvagalleria</title>
-                <link rel="canonical" href="https://jurrispora.fi/gallery" />
+                <link rel="canonical" href="https://jurrispora.fi/gallery" />	<link rel="icon" href="%PUBLIC_URL%/assets/images/tram2.png" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="theme-color" content="#000000" />
+                <meta name="description" content="Jurrispåra | Kuvagalleria" />
+                <meta property="og:locale" content="fi_FI" />
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content="Jurrispåra | Kuvagalleria" />
+                <meta property="og:description"
+                    content="Jurrispåra Ry | Materiaalia menneistä tapahtumista " />
+                <meta property="og:url" content="https://www.jurrispora.fi/gallery" />
+                <meta property="og:site_name" content="Jurrispåra Ry" />
+                <meta property="og:image" content="%PUBLIC_URL%/assets/images/1.jpg" />
+                <meta property="og:image:width" content="1403" />
+                <meta property="og:image:height" content="739" />
+                <meta property="og:image:type" content="image/jpg" />
             </Helmet>
             <div className="GalleryContainer">
                 <Headline info={info} />
+                {/* <div className='GalleryEmbeddedVideoContainer'> */}
+                <LiteYouTubeEmbed
+                    id="vQ5zCgLUdRk"
+                    title="Karanteenispora 18.07.2020"
+                />
+                {/* </div> */}
                 <div className="GallerysContainer">
                     <div className="GalleryWrapper">
                         {images.map((img, index) => <ImageCard key={img.title + index} image={img} />)}

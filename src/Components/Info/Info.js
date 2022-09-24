@@ -9,8 +9,26 @@ export const Info = () => {
         <div className="Info">
             <Helmet>
                 <meta charSet="utf-8" />
+                <link rel="icon" href="%PUBLIC_URL%/assets/images/tram2.png" />
                 <title>Info</title>
                 <link rel="canonical" href="https://jurrispora.fi/info" />
+                <meta charSet="utf-8" />
+                <title>Tietoa meistä</title>
+                <link rel="canonical" href="https://jurrispora.fi/info" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="theme-color" content="#000000" />
+                <meta name="description" content="Jurrispåra | Etkot ja Jatkot | Edut " />
+                <meta property="og:locale" content="fi_FI" />
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content="Hyvä tietää matkan varalta. Etkot, jatkot, edut ja ohjeet matkalle." />
+                <meta property="og:description"
+                    content="Hyvä tietää matkan varalta. Etkot, jatkot, edut ja ohjeet matkalle." />
+                <meta property="og:url" content="https://www.jurrispora.fi/info" />
+                <meta property="og:site_name" content="Jurrispåra Ry" />
+                <meta property="og:image" content="%PUBLIC_URL%/assets/images/sporahero.jpg" />
+                <meta property="og:image:width" content="1403" />
+                <meta property="og:image:height" content="739" />
+                <meta property="og:image:type" content="image/jpg" />
             </Helmet>
             <div className="InfoContainer">
                 <div className="InfoHeadlineWrapper">
@@ -33,7 +51,7 @@ export const Info = () => {
                         Edut:
                     </div>
                     <div className="InfoText">
-                    Ajon aika tyrät rytkyää,  rakko hölskyy ja vessaan on päästävä. Niinpä rytmitämme tauot mikonkadulle noin tunnin välein, jossa voitte käyttää yllämainittujen juottoloiden wc-tiloja. Ja jotta hyvä juoma ei haihtuisi kaupunkimme viemäriverkostoon ja kuppilat hyötyisi tästä, ostakaa vessakäynnin yhteydessä, edes osa teistä, tarjoushintainen 2cl shotti 3.25e hinnalla.
+                        Ajon aika tyrät rytkyää,  rakko hölskyy ja vessaan on päästävä. Niinpä rytmitämme tauot mikonkadulle noin tunnin välein, jossa voitte käyttää yllämainittujen juottoloiden wc-tiloja. Ja jotta hyvä juoma ei haihtuisi kaupunkimme viemäriverkostoon ja kuppilat hyötyisi tästä, ostakaa vessakäynnin yhteydessä, edes osa teistä, tarjoushintainen 2cl shotti 3.25e hinnalla.
                         <p></p>
                         <br></br>
                         <p>On The Rocks myy Salmaria hintaan 3.25e.</p>

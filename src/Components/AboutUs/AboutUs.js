@@ -62,8 +62,23 @@ export const AboutUs = () => {
         <div className="AboutUs">
             <Helmet>
                 <meta charSet="utf-8" />
+                <link rel="icon" href="%PUBLIC_URL%/assets/images/tram2.png" />
                 <title>Tietoa meistä</title>
                 <link rel="canonical" href="https://jurrispora.fi/aboutus" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="theme-color" content="#000000" />
+                <meta name="description" content="Jurrispåra | Keitä me olemme? Meidän tarinamme. Toisin sanoen Interpolin etsityimmät. " />
+                <meta property="og:locale" content="fi_FI" />
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content="Jurrispåra | Keitä me olemme? Meidän tarinamme. Toisin sanoen Interpolin etsityimmät." />
+                <meta property="og:description"
+                    content="Jurrispåra Ry | Meistä | Elämyksiä vuodesta 2019" />
+                <meta property="og:url" content="https://www.jurrispora.fi/aboutus" />
+                <meta property="og:site_name" content="Jurrispåra Ry" />
+                <meta property="og:image" content="%PUBLIC_URL%/assets/images/18.jpg" />
+                <meta property="og:image:width" content="1403" />
+                <meta property="og:image:height" content="739" />
+                <meta property="og:image:type" content="image/jpg" />
             </Helmet>
             <div className="AboutUsContainer">
                 <Headline info={info} />
