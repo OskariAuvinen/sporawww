@@ -44,6 +44,7 @@ export const Info = () => {
                         Matkan aikana
                     </div>
                     <div className="InfoText">
+                        Lähtö 15.10.2022 15.00 Mikonkadun pysäkilta. Jos et tiedä, kokeile Googlea.
                         Lasipullot ja erilliset juoma-astiat, paitsi tapahtuman virallinen VIP-ämpäri, ovat kiellettyjä ja näistä kiinni jäädessään ei neuvotella. Tee siis drinkkisi ennakkoon muovipulloihin ja otathan pienemmät juomat tölkkeinä mukaan. Asiakaspalvelumme "palvelee" teitä n. 24h numerossa +358454904999
                     </div>
                     <div className="InfoTextHeadline">
